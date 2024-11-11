@@ -39,7 +39,6 @@ export default function Home() {
   useEffect(() => {
     // a.test1556;
     // This logic is to emulate a crash
-    
   }, []);
 
   return (
@@ -51,7 +50,7 @@ export default function Home() {
         }}
         className=" bg-[#ff2727]  px-5 py-2 rounded-full text-white"
       >
-        Click to throw an error: "sample error"
+        {'Click to throw an error: "sample error"'}
       </button>
       <button
         onClick={() => {
